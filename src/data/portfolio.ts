@@ -30,7 +30,7 @@ export const profile = {
   email: "abhishekkumar13516@gmail.com",
   phone: "+91-9131984320",
   location: "Bhopal, India",
-  resumeUrl: "/Abhishek_Kumar_Resume_v2.docx",
+  resumeUrl: "/abhi_resume.pdf",
   github: "https://github.com/Abh9131",
   linkedin: "https://www.linkedin.com/in/abhishek-kumar9131/"
 };
@@ -180,7 +180,7 @@ export const projects = [
     ],
     impact:
       "Moved from project prototype to production deployment, improving verification accuracy and reducing manual workflow effort.",
-    github: profile.github,
+    github: "https://github.com/Abh9131/MULTIMODAL-DOCUMENT-AUTHENTICATION-API-",
     demo: "#"
   },
   {
@@ -199,7 +199,7 @@ export const projects = [
     ],
     impact:
       "Demonstrates practical agent orchestration and recruiter-relevant readiness for next-generation AI engineering roles.",
-    github: profile.github,
+    github: "https://github.com/Abh9131/multi_agent",
     demo: "#"
   },
   {
@@ -218,7 +218,7 @@ export const projects = [
     ],
     impact:
       "Shows applied LLM product thinking beyond simple API calls, with attention to user experience and response quality.",
-    github: profile.github,
+    github: "https://github.com/Abh9131/mode_chatbot",
     demo: "#"
   },
   {
@@ -237,7 +237,7 @@ export const projects = [
     ],
     impact:
       "Improved classification performance by 30% over baseline in resume-reported testing.",
-    github: profile.github,
+    github: "https://github.com/Abh9131/fake_news_detection_using_LSTM-NLP",
     demo: "#"
   },
   {
@@ -256,7 +256,7 @@ export const projects = [
     ],
     impact:
       "Achieved resume-reported MAE under 1.5% and outperformed traditional time-series baselines by 25%.",
-    github: profile.github,
+    github: "https://github.com/Abh9131/stock_prediction_using_deep_learning",
     demo: "#"
   }
 ];
