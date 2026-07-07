@@ -393,6 +393,7 @@ function Experience() {
           eyebrow="Experience"
           title="Where I've worked so far."
           text="Currently doing ERP analytics full-time, with a couple of data science internships before that."
+          />
         <div className="relative mx-auto max-w-5xl">
           <div className="absolute left-4 top-0 h-full w-px bg-gradient-to-b from-cyanbrand via-mintbrand to-transparent md:left-1/2" />
           <div className="space-y-8">
