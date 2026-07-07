@@ -26,7 +26,7 @@ export const profile = {
   name: "Abhishek Kumar",
   role: "AI/ML Engineer | Data Analyst | Generative AI Developer",
   headline:
-    "I build production-minded AI systems, analytics pipelines, and LLM applications that turn messy data into decisions, automation, and recruiter-visible business impact.",
+    "I work on AI/ML systems, analytics pipelines, and LLM applications - mostly turning messy data into something people can actually use to make a decision.",
   email: "abhishekkumar13516@gmail.com",
   phone: "+91-9131984320",
   location: "Bhopal, India",
@@ -44,20 +44,20 @@ export const heroMetrics = [
 
 export const identityCards = [
   {
-    icon: TbBrain,
-    title: "AI/ML Engineering",
-    text: "Machine learning, deep learning, NLP, computer vision, and time-series models built with Python-first engineering discipline."
-  },
-  {
-    icon: TbChartDots,
-    title: "Data Analytics",
-    text: "ERP data cleaning, transformation, reporting automation, Power BI dashboards, and stakeholder-ready business insights."
-  },
-  {
-    icon: TbRobot,
-    title: "Generative AI",
-    text: "LangChain, Mistral AI, prompt engineering, RAG concepts, AI agents, and LLM-powered research and chatbot workflows."
-  }
+icon: TbBrain,
+title: "AI/ML Engineering",
+text: "I build ML, deep learning, NLP, computer vision, and time-series models in Python."
+},
+{
+icon: TbChartDots,
+title: "Data Analytics",
+text: "Cleaning and transforming ERP data, automating reports, and building Power BI dashboards people actually check."
+},
+{
+icon: TbRobot,
+title: "Generative AI",
+text: "LangChain, Mistral AI, prompt engineering, RAG, and AI agents - I use these to build research tools and chatbots."
+}
 ];
 
 export const skills = [
@@ -198,7 +198,7 @@ export const projects = [
       "Session-state progress tracking"
     ],
     impact:
-      "Demonstrates practical agent orchestration and recruiter-relevant readiness for next-generation AI engineering roles.",
+      "Good hands-on practice with agent orchestration - coordinating multiple agents for search, synthesis, and critique in one pipeline.",
     github: "https://github.com/Abh9131/multi_agent",
     demo: "#"
   },
@@ -217,7 +217,7 @@ export const projects = [
       "Clean interactive interface"
     ],
     impact:
-      "Shows applied LLM product thinking beyond simple API calls, with attention to user experience and response quality.",
+      "Went beyond a basic API wrapper - had to think about memory, prompt design, and actual response quality.",
     github: "https://github.com/Abh9131/mode_chatbot",
     demo: "#"
   },
