@@ -270,7 +270,7 @@ function About() {
         <SectionHeading
           eyebrow="About"
           title="A practical AI builder with a data analyst's discipline."
-          text="Abhishek combines hands-on analytics work with applied AI projects, creating a profile that can speak to business stakeholders, engineering teams, and ML interview panels."
+          text="I like working at the point where data, ML, and real business problems meet - I've done analytics work and built AI products, so I can talk to both sides."
         />
         <div className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
           <motion.div
@@ -281,13 +281,13 @@ function About() {
             className="rounded-3xl border border-slate-200 bg-white/75 p-6 shadow-soft backdrop-blur dark:border-white/10 dark:bg-white/[0.06] sm:p-8"
           >
             <p className="text-lg leading-8 text-slate-700 dark:text-slate-200">
-              AI/ML Engineer and Data Analyst with hands-on experience in data analytics, machine learning, and Generative AI. Skilled in transforming complex datasets into actionable insights, building intelligent automation systems, and developing AI-powered applications that solve real-world business problems.
+              I'm an AI/ML Engineer and Data Analyst. I enjoy taking messy datasets and turning them into something useful - dashboards, models, or automated pipelines that actually solve a problem instead of just looking good in a report.
             </p>
             <p className="mt-5 text-lg leading-8 text-slate-700 dark:text-slate-200">
-              Professional experience includes ERP analytics, dashboard development, process automation, production-grade AI solutions, NLP applications, and multi-agent AI systems. Passionate about leveraging data, machine learning, and emerging AI technologies to improve decision-making, optimize operations, and drive innovation.
+              My work so far has covered ERP analytics, dashboard building, process automation, a production AI deployment, NLP projects, and multi-agent systems. I like the mix - one day it's cleaning up messy Excel/ERP data, the next it's debugging why an LLM agent won't stop looping.
             </p>
             <p className="mt-5 text-lg leading-8 text-slate-700 dark:text-slate-200">
-              Actively building expertise in Agentic AI, LLM applications, and scalable AI architectures while contributing to projects that bridge the gap between business objectives and advanced technology.
+              Right now I'm going deeper into agentic AI and LLM applications, and trying to get better at building things that hold up outside a notebook.
             </p>
             <p className="mt-5 text-lg leading-8 text-slate-700 dark:text-slate-200">
               I am passionate about building scalable AI systems that combine data, automation, and
@@ -325,8 +325,8 @@ function Skills() {
       <div className="mx-auto max-w-7xl">
         <SectionHeading
           eyebrow="Skills"
-          title="Technical stack built for AI products and analytics teams."
-          text="The emphasis is on applied competence: building models, analyzing data, deploying prototypes, and communicating outcomes clearly."
+          title="Tools and technologies I work with."
+          text="Mostly Python-based - covers building models, analyzing data, and shipping small prototypes end to end."
         />
         <div className="grid gap-6 lg:grid-cols-3">
           {skills.map((group, index) => (
@@ -391,9 +391,8 @@ function Experience() {
       <div className="mx-auto max-w-7xl">
         <SectionHeading
           eyebrow="Experience"
-          title="A timeline that connects analytics execution with AI engineering growth."
-          text="The experience story is positioned for recruiters: current business impact first, then internship projects that demonstrate technical range."
-        />
+          title="Where I've worked so far."
+          text="Currently doing ERP analytics full-time, with a couple of data science internships before that."
         <div className="relative mx-auto max-w-5xl">
           <div className="absolute left-4 top-0 h-full w-px bg-gradient-to-b from-cyanbrand via-mintbrand to-transparent md:left-1/2" />
           <div className="space-y-8">
@@ -458,8 +457,8 @@ function Projects() {
       <div className="mx-auto max-w-7xl">
         <SectionHeading
           eyebrow="Projects"
-          title="Applied AI projects presented through business problems and measurable impact."
-          text="Each card is written for interview conversion: what problem existed, what was built, which stack was used, and why the result matters."
+          title="A few projects I've built."
+          text="For each one - the problem I was solving, what I built, the stack I used, and what came out of it."
         />
         <div className="grid gap-6 lg:grid-cols-2">
           {featured.map((project, index) => (
@@ -549,8 +548,8 @@ function Certifications() {
       <div className="mx-auto max-w-7xl">
         <SectionHeading
           eyebrow="Certifications"
-          title="Verified learning across AI, analytics, Python, and industry tools."
-          text="The certification set supports the portfolio narrative: AI foundations, GenAI, data analysis, Python, Excel, and industrial IoT exposure."
+          title="Certifications and courses I've completed."
+          text="Covers AI foundations, GenAI, Data Science, Python, Excel, and a bit of industrial IoT."
         />
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {certifications.map((cert, index) => (
@@ -588,13 +587,10 @@ function GithubSection() {
                 GitHub
               </p>
               <h2 className="font-display text-3xl font-semibold sm:text-4xl">
-                Open-source profile built around applied AI systems.
+                Most of my work lives here.
               </h2>
               <p className="mt-4 leading-7 text-slate-300">
-                Recruiters should quickly see a practical repository story: document verification,
-                multi-agent research, LangChain chatbots, NLP classification, forecasting, and analytics
-                dashboards. Pin the strongest repositories and keep READMEs focused on problem, setup,
-                architecture, screenshots, and results.
+                A few of my pinned repos - document verification, a multi-agent research assistant, a LangChain chatbot, NLP classification, and time-series forecasting. Check the READMEs for setup and details.
               </p>
               <a
                 href={profile.github}
@@ -626,8 +622,8 @@ function Achievements() {
       <div className="mx-auto max-w-7xl">
         <SectionHeading
           eyebrow="Achievements"
-          title="Signals that make the profile interview-ready."
-          text="These highlights translate resume details into recruiter-facing proof points."
+          title="A quick look at what I've done."
+          text="Some highlights from my work and resume, in one place."
         />
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-5">
           {achievements.map((achievement, index) => (
@@ -658,17 +654,16 @@ function Contact() {
       <div className="mx-auto max-w-7xl">
         <SectionHeading
           eyebrow="Contact"
-          title="Ready for AI, data, and GenAI opportunities."
-          text="Use this section for recruiter outreach, collaborations, project discussions, and internship or entry-level AI engineering roles."
+          title="Open to AI, data, and GenAI opportunities."
+          text="Reach out if you're hiring, want to collaborate, or just want to talk about a project."
         />
         <div className="grid gap-6 lg:grid-cols-[0.85fr_1.15fr]">
           <div className="rounded-3xl border border-slate-200 bg-white/75 p-6 shadow-soft backdrop-blur dark:border-white/10 dark:bg-white/[0.06]">
             <h3 className="font-display text-2xl font-semibold text-slate-950 dark:text-white">
-              Let us build something useful.
+             Let's build something useful.
             </h3>
             <p className="mt-3 leading-7 text-slate-600 dark:text-slate-300">
-              I am interested in AI/ML engineering, data analytics, LLM application development, and
-              agentic AI roles where practical delivery matters.
+              I'm looking at AI/ML engineering, data analytics, LLM application development, and agentic AI roles - anywhere I can actually ship things, not just prototype them.
             </p>
             <div className="mt-6 space-y-3">
               <a href={`mailto:${profile.email}`} className="flex items-center gap-3 rounded-2xl bg-slate-100 p-4 text-slate-700 transition hover:bg-cyanbrand/15 dark:bg-white/10 dark:text-slate-200">
