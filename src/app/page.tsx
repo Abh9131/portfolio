@@ -281,13 +281,13 @@ function About() {
             className="rounded-3xl border border-slate-200 bg-white/75 p-6 shadow-soft backdrop-blur dark:border-white/10 dark:bg-white/[0.06] sm:p-8"
           >
             <p className="text-lg leading-8 text-slate-700 dark:text-slate-200">
-              I'm an AI/ML Engineer and Data Analyst. I enjoy taking messy datasets and turning them into something useful - dashboards, models, or automated pipelines that actually solve a problem instead of just looking good in a report.
+              I&apos;m an AI/ML Engineer and Data Analyst. I enjoy taking messy datasets and turning them into something useful - dashboards, models, or automated pipelines that actually solve a problem instead of just looking good in a report.
             </p>
             <p className="mt-5 text-lg leading-8 text-slate-700 dark:text-slate-200">
-              My work so far has covered ERP analytics, dashboard building, process automation, a production AI deployment, NLP projects, and multi-agent systems. I like the mix - one day it's cleaning up messy Excel/ERP data, the next it's debugging why an LLM agent won't stop looping.
+              My work so far has covered ERP analytics, dashboard building, process automation, a production AI deployment, NLP projects, and multi-agent systems. I like the mix - one day it&apos;s cleaning up messy Excel/ERP data, the next it&apos;s debugging why an LLM agent won&apos;t stop looping.
             </p>
             <p className="mt-5 text-lg leading-8 text-slate-700 dark:text-slate-200">
-              Right now I'm going deeper into agentic AI and LLM applications, and trying to get better at building things that hold up outside a notebook.
+              Right now I&apos;m going deeper into agentic AI and LLM applications, and trying to get better at building things that hold up outside a notebook.
             </p>
             <p className="mt-5 text-lg leading-8 text-slate-700 dark:text-slate-200">
               I am passionate about building scalable AI systems that combine data, automation, and
@@ -661,10 +661,10 @@ function Contact() {
         <div className="grid gap-6 lg:grid-cols-[0.85fr_1.15fr]">
           <div className="rounded-3xl border border-slate-200 bg-white/75 p-6 shadow-soft backdrop-blur dark:border-white/10 dark:bg-white/[0.06]">
             <h3 className="font-display text-2xl font-semibold text-slate-950 dark:text-white">
-             Let's build something useful.
+             Let&apos;s build something useful.
             </h3>
             <p className="mt-3 leading-7 text-slate-600 dark:text-slate-300">
-              I'm looking at AI/ML engineering, data analytics, LLM application development, and agentic AI roles - anywhere I can actually ship things, not just prototype them.
+              I&apos;m looking at AI/ML engineering, data analytics, LLM application development, and agentic AI roles - anywhere I can actually ship things, not just prototype them.
             </p>
             <div className="mt-6 space-y-3">
               <a href={`mailto:${profile.email}`} className="flex items-center gap-3 rounded-2xl bg-slate-100 p-4 text-slate-700 transition hover:bg-cyanbrand/15 dark:bg-white/10 dark:text-slate-200">
