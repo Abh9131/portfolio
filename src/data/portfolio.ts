@@ -24,7 +24,7 @@ import { TbBrain, TbChartDots, TbRobot } from "react-icons/tb";
 
 export const profile = {
   name: "Abhishek Kumar",
-  role: "AI/ML Engineer | Data Analyst | Generative AI Developer",
+  role: "AI/ML Engineer | Data Scientist | Generative AI Developer",
   headline:
     "I work on AI/ML systems, analytics pipelines, and LLM applications - mostly turning messy data into something people can actually use to make a decision.",
   email: "abhishekkumar13516@gmail.com",
@@ -98,7 +98,8 @@ export const skills = [
       { name: "Streamlit", level: 86 },
       { name: "AWS", level: 78 },
       { name: "MySQL / MongoDB", level: 78 },
-      { name: "GitHub", level: 82 }
+      { name: "GitHub", level: 82 },
+      { name: "Docker", level: 80 }
     ]
   }
 ];
@@ -110,6 +111,7 @@ export const skillCloud = [
   { name: "PyTorch", icon: SiPytorch },
   { name: "Scikit-Learn", icon: SiScikitlearn },
   { name: "LangChain", icon: TbRobot },
+  { name: "LangGraph", icon: TbRobot },
   { name: "OpenAI API", icon: SiOpenai },
   { name: "Mistral AI", icon: TbRobot },
   { name: "Hugging Face", icon: SiHuggingface },
@@ -126,10 +128,35 @@ export const skillCloud = [
 
 export const experience = [
   {
+  role: "Data Analyst",
+  company: "Maharishi Vidya Mandir National Office, Bhopal",
+  period: "Aug 2026 - Present",
+  type: "Current Role",
+  bullets: [
+  "Automated and streamlined ERP reporting workflows across 150+ schools using Python, SQL, Excel, and Power BI.",
+  "Engineered automated data pipelines and interactive dashboards, improving reporting accuracy and operational efficiency.",
+  "Conducted end-to-end data cleaning, transformation, and validation, delivering business analysis that supports organizational decision-making.",
+  "Partnered with internal stakeholders to design and develop AI-powered solutions alongside core data analytics responsibilities.",
+  "Built production-grade AI applications using Python, FastAPI, OCR, Computer Vision, and Large Language Models (LLMs) to automate enterprise document processing and information extraction.",
+  "Architected REST APIs and AI-driven workflows integrating OCR, rule engines, and LLMs to enable real-world business process automation."
+],
+  stack: [
+  "Python",
+  "SQL",
+  "Power BI",
+  "Excel",
+  "FastAPI",
+  "OCR",
+  "Computer Vision",
+  "LLMs",
+  "REST APIs"
+]
+},
+  {
     role: "Trainee Data Analyst",
     company: "Maharishi Vidya Mandir National Office, Bhopal",
-    period: "Feb 2026 - Present",
-    type: "Current Role",
+    period: "Feb 2026 - Jul 2026",
+    type: "Full-time",
     bullets: [
       "Managing and analyzing ERP data across 150+ schools to generate actionable insights and performance reports.",
       "Developing automated data pipelines and interactive dashboards with Python, Power BI, and Excel.",
@@ -164,6 +191,41 @@ export const experience = [
 ];
 
 export const projects = [
+  {
+  title: "LLM-Powered ERP Analytics Assistant",
+  label: "Production deployment at Maharishi Vidya Mandir",
+  problem:
+    "Analyzing ERP data required technical SQL knowledge and manual report generation, making business insights difficult for non-technical users to access.",
+  solution:
+    "Developed an AI-powered analytics assistant that enables users to query ERP data in natural language. The system converts user prompts into SQL, retrieves data from the ERP database, and generates contextual business insights using Large Language Models.",
+  stack: ["Python", "FastAPI", "MySQL", "LLMs", "SQL", "Pandas"],
+  features: [
+    "Natural language to SQL conversion",
+    "AI-generated business insights and summaries",
+    "Real-time ERP database querying",
+    "Context-aware analytics and reporting",
+    "REST API integration with enterprise systems"
+  ],
+  impact:
+    "Enabled non-technical users to access ERP insights through conversational AI, significantly reducing manual reporting effort and accelerating data-driven decision-making across 150+ schools."
+},
+  {
+  title: "AI-Powered Student Marksheet Information Extraction",
+  label: "Production deployment at Maharishi Vidya Mandir",
+  problem:
+    "Manual extraction of student information from marksheets was time-consuming, error-prone, and difficult to scale across multiple educational boards.",
+  solution:
+    "Developed an AI-powered document intelligence system that combines OCR, rule-based validation, and Large Language Models to extract structured information from scanned marksheets and PDFs.",
+  stack: ["Python", "FastAPI", "PaddleOCR", "LLMs", "OpenCV", "JSON"],
+  features: [
+    "Multi-board marksheet processing",
+    "AI-assisted OCR and information extraction",
+    "Rule engine for data validation",
+    "REST API for ERP integration"
+  ],
+  impact:
+    "Reduced manual data entry, improved extraction accuracy, and automated student document processing for enterprise ERP workflows."
+},
   {
     title: "AI-Powered Document & Signature Verification System",
     label: "Production deployment at Vedanta",
@@ -242,7 +304,7 @@ export const projects = [
   },
   {
     title: "Stock Price Prediction using LSTM",
-    label: "Time-series forecasting",
+    label: "Time-series forecasting - Published",
     problem:
       "Stock trend analysis requires models that can learn temporal dependencies across long historical price windows.",
     solution:
@@ -262,6 +324,7 @@ export const projects = [
 ];
 
 export const certifications = [
+  { name: "Copado AI Certified Professional", issuer: "Copado", date: "Jun 2026", badge: "AI" },
   { name: "Oracle AI Foundation Associate", issuer: "Oracle", date: "Apr 2026", badge: "AI" },
   { name: "Career Essentials in Generative AI", issuer: "Microsoft & LinkedIn", date: "Dec 2023", badge: "GenAI" },
   { name: "Career Essentials in Data Analysis", issuer: "Microsoft & LinkedIn", date: "Dec 2023", badge: "Data" },
@@ -272,11 +335,11 @@ export const certifications = [
 ];
 
 export const achievements = [
-  "Production deployment of an AI-powered document and signature verification platform at Vedanta.",
-  "ERP analytics ownership across 150+ schools at Maharishi Vidya Mandir National Office.",
-  "Automated reporting pipelines and Power BI dashboards for operational and strategic decisions.",
-  "Portfolio of applied AI systems spanning NLP, computer vision, LLM chatbots, agents, and forecasting.",
-  "Certifications from Oracle, Microsoft, IBM, Ducat, and industry bootcamps."
+  "Promoted from Trainee Data Analyst to Data Analyst within six months based on performance and contributions.",
+  "Delivered three production-grade AI solutions, including document verification, intelligent document extraction, and an LLM-powered ERP Analytics Assistant.",
+  "Automated ERP reporting and analytics workflows across 150+ schools using Python, SQL, Excel, and Power BI.",
+  "Developed enterprise AI applications leveraging FastAPI, OCR, Computer Vision, and Large Language Models (LLMs) for business process automation.",
+  "Earned professional certifications from Oracle, Microsoft, IBM, and Ducat while continuously expanding expertise in AI, data analytics, and cloud technologies."
 ];
 
 export const socials = [
